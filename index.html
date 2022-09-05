@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Lucas Ribeiro</title>
+</head>
+
+<body>
+  <nav>
+    <a class="logo-brand" href="#">
+      <img src="img/logo1.png" width="40" height="40" alt="">
+    </a>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#sobre">sobre</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#exp">experiência</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#cont">contato</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <article class="inicio">
+      <h4>olá</h4>
+      <h1>eu sou lucas</h1>
+      <h2>DEVELOPER FRONT-END</h2>
+      <div id="social">
+        <a href="https://www.linkedin.com/in/lucas-ribeiro12/"> <img src="img/social/32/linkedin.png" class="social_ft"></a>
+        <a href="https://github.com/Luca-srd"> <img src="img/social/32/github.png" class="social_ft"></a>
+        <a src=""> <img src="img/social/32/instagram.png" class="social_ft"></a>
+        <a src=""> <img src="img/social/32/behance.png" class="social_ft"></a>
+      </div>
+
+    </article>
+    <article id="sobre">
+      <h1 class="tit">sobre</h1>
+      <div id="quad_sobre">
+        <p>
+          Olá me chamo Lucas Ribeiro, tenho 25 anos e sou natural de são Paulo, onde vivo até hoje.
+          Sempre fui um entusiasta pelo mundo da tecnologia onde resolvi entrar de cabeça na área, movido por novos desafios, atualmente estou cursando Tecnólogo em Análise e desenvolvimento de sistemas e pretendo iniciar minha carreira como Desenvolvedor Front-End.
+          Buscando me desenvolver como profissional na área, realizando cursos intensivos focados em Front-End e Designer Digital e já adquirir alguns conhecimentos.
+
+
+        </p>
+      </div>
+      <div class="btn">
+        <a href="https://trampos.co/lucasribeir0" class="btn1">curriculo</a>
+        <a href="https://github.com/Luca-srd" class="btn1">portfolio</a>
+      </div>
+    </article>
+    <article id="exp">
+      <h1 class="tit">experiência</h1>
+      <div class="skill">
+        <li>
+          <h3>html5</h3><span class="bar"><span class="html"></span></span>
+        </li>
+        <li>
+          <h3>css3</h3><span class="bar"><span class="css"></span></span>
+        </li>
+        <li>
+          <h3>javascript</h3><span class="bar"><span class="javascript"></span></span>
+        </li>
+        <li>
+          <h3>python</h3><span class="bar"><span class="python"></span></span>
+        </li>
+        <li>
+          <h3>photoshop</h3><span class="bar"><span class="photoshop"></span></span>
+        </li>
+        <li>
+          <h3>ilustrador</h3><span class="bar"><span class="ilustrador"></span></span>
+        </li>
+      </div>
+      <div class="linha_tempo">
+        <h1 class="tit1">formação</h1>
+        <div class="box">
+          <ul id="first-list">
+            <li>
+              <span></span>
+              <div class="title">Análise e desenvolvimento de sistemas </div>
+              <div class="info">Universidade Uninter (EAD)</div>
+              <div class="time">
+                <span>2022</span>
+              </div>
+            </li>
+            <li>
+              <span></span>
+              <div class="title">Desenvolvedor web </div>
+              <div class="info">Udemy</div>
+            </li>
+            <li>
+              <span></span>
+              <div class="title">Design Gráfico</div>
+              <div class="info">Udemy</div>
+            </li>
+            <li>
+              <span></span>
+              <div class="title">Informática para internet </div>
+              <div class="info">ITB – Prof.ª Maria Sylvia Chaluppe Mello </div>
+              <div class="time">
+                <span>2015</span>
+              </div>
+            </li>
+    </article>
+    <article id="cont">
+      <h1 class="tit">contato</h1>
+      <form id="form">
+        <div>
+          <input type="text" placeholder="Nome" class="inputs required" oninput="nameValidate()">
+          <span class="span-required">Nome dever ter no mínimo 3 Letras</span>
+        </div>
+        <div>
+          <input type="email" class="inputs required" id="inputEmail" placeholder="Email" oninput="emailValidate">
+          <span class="span-required">Digite um email válido</span>
+        </div>
+        <div>
+          <input type="text" class="inputs required" id="assunto" placeholder="assunto" oninput="assuntoValidate">
+          <span class="span-required">Digite o assunto</span>
+        </div>
+        <div">
+          <textarea class="inputs required" name="menssagems" id="menssagem" placeholder="menssagem" oninput="menssagemValidate"></textarea>
+          </div>
+          <button class="btn-enviar" type="submit">Enviar</button>
+      </form>
+      <div class="area_cont">
+        <p><strong>E-mail:</strong> contato@lucasribeiro.com</p>
+        <p><strong>Whatsapp:</strong> +55 11 98672-0084</p>
+        <br>
+        <br>
+
+        <p><strong>follow me</strong></p>
+        <div id="social1">
+          <a href="https://www.linkedin.com/in/lucas-ribeiro12/"> <img src="img/social/32/linkedin.png" class="social_ft1"></a>
+          <a href="https://github.com/Luca-srd"> <img src="img/social/32/github.png" class="social_ft1"></a>
+          <a src=""> <img src="img/social/32/instagram.png" class="social_ft1"></a>
+          <a src=""> <img src="img/social/32/behance.png" class="social_ft1"></a>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer class="rodape">
+    <p id="txt-rodape"> lucas ribeiro - Todos os Direitos Reservados - 2022</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
